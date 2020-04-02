@@ -99,6 +99,7 @@ pidfile = "/config/data/prosody.pid";
 -- prevent clients from authenticating unless they are using encryption.
 
 c2s_require_encryption = false
+consider_bosh_secure = true
 
 -- Force certificate authentication for server-to-server connections?
 -- This provides ideal security, but requires servers you communicate
